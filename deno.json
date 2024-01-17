@@ -1,0 +1,6 @@
+{
+  "lock": false,
+  "tasks": {
+    "wasmbuild": "RUSTFLAGS=--cfg=web_sys_unstable_apis deno run -A https://deno.land/x/wasmbuild@0.15.6/main.ts"
+  }
+}

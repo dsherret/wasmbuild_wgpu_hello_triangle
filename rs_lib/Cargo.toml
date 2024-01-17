@@ -1,0 +1,18 @@
+[package]
+name = "rs_lib"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+crate_type = ["cdylib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+console_log = "1"
+env_logger = "0.10"
+pollster = "0.3"
+wgpu = { git = "https://github.com/gfx-rs/wgpu", rev = "2e3818795447f9f0c87bf710da4eea9b95efec2d" }
+wasm-bindgen = "=0.2.90"
+wasm-bindgen-futures = "0.4.40"
+web-sys = "0.3.67"
+winit = "0.29"
